@@ -7,7 +7,7 @@ import Icon from "~~/components/Icon/Icon.vue";
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <nav class="relative z-50 flex justify-between">
                 <div class="flex items-center md:gap-x-12">
-                    <nuxt-link to="/">Logo</nuxt-link>
+                    <nuxt-link to="/" class="text-2xl font-bold">My Nuxt 3 Blog</nuxt-link>
                 </div>
                 <div class="flex items-center gap-x-5 md:gap-x-8">
                     <div class="hidden md:block">
