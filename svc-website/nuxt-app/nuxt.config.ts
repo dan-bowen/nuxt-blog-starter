@@ -6,11 +6,11 @@ export default defineNuxtConfig({
         '@nuxt/content',
         '@pinia/nuxt'
     ],
-    content: {
-        highlight: {
-            theme: 'github-light'
-        }
-    },
+    // content: {
+    //     highlight: {
+    //         theme: 'github-light'
+    //     }
+    // },
     typescript: {
         shim: false
     },
