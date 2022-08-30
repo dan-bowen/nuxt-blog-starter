@@ -40,5 +40,6 @@ const isMobileNavOpen = ref(false)
         <main>
             <slot />
         </main>
+        <Footer />
     </div>
 </template>
