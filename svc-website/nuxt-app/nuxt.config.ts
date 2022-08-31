@@ -6,21 +6,12 @@ export default defineNuxtConfig({
         '@nuxt/content',
         '@pinia/nuxt'
     ],
-    // content: {
-    //     highlight: {
-    //         theme: 'github-light'
-    //     }
-    // },
+    content: {
+        documentDriven: true
+    },
     typescript: {
         shim: false
     },
-    // vite: {
-    //     server: {
-    //         hmr: {
-    //             overlay: false
-    //         }
-    //     }
-    // },
     build: {
         postcss: {
             postcssOptions: {
