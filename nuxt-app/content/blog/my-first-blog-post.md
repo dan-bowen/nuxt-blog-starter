@@ -1,24 +1,24 @@
 ---
 title: "My First Blog Post"
-description: "What a lovely page"
-author: "@bruno"
-dates:
-  published: "2022-05-01"
+description: "My First Blog Post : description"
 image:
-  src: '/assets/image.jpg'
-  alt: 'An image showcasing My Page.'
+  src: "/assets/image1.jpg"
+  alt: "My First Blog Post : img alt"
   width: 400
   height: 300
 head:
   meta:
-    - name: 'keywords'
-      content: 'nuxt, vue, content'
-    - name: 'robots'
-      content: 'index, follow'
-    - name: 'author'
-      content: 'NuxtLabs'
-    - name: 'copyright'
-      content: '© 2022 NuxtLabs'
+    - name: "keywords"
+      content: "My First Blog Post : keywords"
+    - name: "robots"
+      content: "My First Blog Post : robots"
+    - name: "author"
+      content: "My First Blog Post : author"
+    - name: "copyright"
+      content: "My First Blog Post : copyright"
+author: "@bruno"
+dates:
+  published: "2022-05-01"
 ---
 
 # Sample Markdown

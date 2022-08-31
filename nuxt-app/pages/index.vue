@@ -9,6 +9,7 @@ useHead({
     ]
 })
 </script>
+
 <template>
     <main>
         <TheHero> A Nuxt Content v2 Blog with Tailwind </TheHero>

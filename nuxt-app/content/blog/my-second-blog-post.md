@@ -1,24 +1,24 @@
 ---
-title: What is a counter?
-description: This is a short description about my counter post.
-author: "@luisa"
-dates:
-  published: "2022-06-01"
+title: "My Second Blog Post"
+description: "My Second Blog Post : description"
 image:
-  src: '/assets/image2.jpg'
-  alt: 'An image showcasing My Page2.'
+  src: "/assets/image2.jpg"
+  alt: "My Second Blog Post : img alt"
   width: 400
   height: 300
 head:
   meta:
-    - name: 'keywords'
-      content: 'nuxt, vue, content2'
-    - name: 'robots'
-      content: 'index, follow2'
-    - name: 'author'
-      content: 'NuxtLabs2'
-    - name: 'copyright'
-      content: '© 2022 NuxtLabs2'
+    - name: "keywords"
+      content: "My Second Blog Post : keywords"
+    - name: "robots"
+      content: "My Second Blog Post : robots"
+    - name: "author"
+      content: "My Second Blog Post : author"
+    - name: "copyright"
+      content: "My Second Blog Post : copyright"
+author: "@luisa"
+dates:
+  published: "2022-06-01"
 ---
 
  ## What is a counter?
