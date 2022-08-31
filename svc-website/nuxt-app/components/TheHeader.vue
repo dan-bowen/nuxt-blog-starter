@@ -22,7 +22,7 @@ import Icon from "~~/components/Icon/Icon.vue";
                     <div class="-mr-1 md:hidden">
                         <div>
                             <button
-                                class="relative z-10 flex h-8 w-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none"
+                                class="flex relative z-10 h-8 w-8 items-center justify-center [&:not(:focus-visible)]:focus:outline-none"
                                 aria-label="Toggle Navigation" id="headlessui-popover-button-:R1p6:" type="button"
                                 aria-expanded="false">
                                 <Icon name="menu" />
