@@ -7,7 +7,7 @@ import ContactForm from '@/components/forms/ContactForm.vue'
         <TheHero>Contact Me</TheHero>
         <ArticleContainer>
             <ArticlePanel>
-                <section class="prose pt-10 pb-12">
+                <section class="pt-10 pb-12">
                     <div class="p-4">
                         <div class="mx-24 my-0 text-lg">
                             <ContactForm />
