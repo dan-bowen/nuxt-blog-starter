@@ -4,6 +4,7 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
+        '@formkit/nuxt',
         '@pinia/nuxt'
     ],
     content: {
