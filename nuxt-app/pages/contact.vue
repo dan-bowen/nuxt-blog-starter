@@ -1,5 +1,5 @@
 <script setup>
-
+import ContactForm from '@/components/forms/ContactForm.vue'
 </script>
 
 <template>
@@ -10,7 +10,7 @@
                 <section class="prose pt-10 pb-12">
                     <div class="p-4">
                         <div class="mx-24 my-0 text-lg">
-                            <p>Hi</p>
+                            <ContactForm />
                         </div>
                     </div>
                 </section>
