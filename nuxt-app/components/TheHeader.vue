@@ -11,7 +11,7 @@ import Icon from "~~/components/Icon/Icon.vue";
                 </div>
                 <div class="flex items-center gap-x-5 md:gap-x-8">
                     <div class="hidden md:block">
-                        <nuxt-link to="/"
+                        <nuxt-link to="/contact"
                             class="inline-block rounded-lg py-1 px-2 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                             Contact</nuxt-link>
                     </div>
