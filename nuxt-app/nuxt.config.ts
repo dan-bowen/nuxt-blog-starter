@@ -7,6 +7,14 @@ export default defineNuxtConfig({
         '@formkit/nuxt',
         '@pinia/nuxt'
     ],
+    runtimeConfig: {
+        // The private keys which are only available within server-side
+        apiSecret: '',
+        // Keys within public, will be also exposed to the client-side
+        public: {
+            apiBaseUrl: ''
+        }
+    },
     content: {
         documentDriven: true
     },
