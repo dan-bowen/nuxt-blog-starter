@@ -4,7 +4,8 @@
     "routes": [
       "add-headers:enabled",
       "get-users:success",
-      "get-user:success"
+      "get-user:success",
+      "form-contact:success"
     ]
   },
   {
