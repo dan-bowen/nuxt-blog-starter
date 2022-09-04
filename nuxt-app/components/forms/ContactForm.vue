@@ -5,7 +5,7 @@ import { reset } from '@formkit/core'
 const submitted = ref(false)
 
 const submitHandler = async (formData) => {
-    const { data, pending, error, refresh } = await useFetch('/api/form/contact', {
+    const { data, pending, error, refresh } = await $fetch('/api/form/contact', {
         method: 'post',
         body: formData
     })
