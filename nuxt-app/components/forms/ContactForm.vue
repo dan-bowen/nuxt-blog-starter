@@ -53,7 +53,6 @@ const submitHandler = async (formData) => {
             <FormKit type="text" prefix-icon="email" name="email" label="Your email" validation="required|email" />
             <FormKit type="textarea" name="message" label="Message" validation="required|length:6" />
             <FormKit type="submit" label="Send Message" />
-            <pre wrap>{{ value }}</pre>
         </FormKit>
     </div>
 </template>
