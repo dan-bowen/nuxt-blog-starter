@@ -4,40 +4,31 @@ import { reset } from '@formkit/core'
 import SuccessAlert from '@/components/alerts/SuccessAlert.vue'
 import ErrorAlert from '@/components/alerts/ErrorAlert.vue'
 
-const isSuccess = ref(true)
-const isServerError = ref(true)
+const isSuccess = ref(false)
+const isServerError = ref(false)
 
 const submitHandler = async (formData) => {
     isSuccess.value = false
     isServerError.value = false
-    const submission = await $fetch('/api/form/contact', {
+
+    await $fetch('/api/form/contact', {
         method: 'post',
         body: formData
     })
-    // .then(res => {
-    //         const data = res.data.value
-    //         const error = res.error.value
-    //         if (error) {
-    //             console.log(error)
-    //         } else {
-    //             console.log(data)
-    //         }
-    //     },
-    //     error => {
-    //         console.log('exception...')
-    //         console.log(error)
-    //     }
-    // )
+    .then(res => {
+            const data = res.data
+            const errors = res.errors
+            // console.log('success', data)
+            // console.log('success:errors', errors)
+
+            isSuccess.value = true
+            reset('contactMe')
+        }
+    )
     .catch((error) => {
         isServerError.value = true
-        console.log(error.data)
+        // console.log('catch', error.data)
     })
-    
-    console.log(submission)
-    if (submission) {
-        isSuccess.value = true
-        reset('contactMe')
-    }
 }
 </script>
     
