@@ -10,7 +10,7 @@ module.exports = [
                 options: {
                     status: 201,
                     body: {
-                        data: [{
+                        data: {
                             "type": "form-contact",
                             // "id": "1",
                             "attributes": {
@@ -18,7 +18,7 @@ module.exports = [
                                 "email": "foo@bar.com",
                                 "message": "This is a message"
                             }
-                        }],
+                        },
                     },
                 },
             },
@@ -28,6 +28,7 @@ module.exports = [
                 options: {
                     status: 422,
                     body: {
+                        data: {},
                         errors: [
                             {
                                 "type": "validation-error",
