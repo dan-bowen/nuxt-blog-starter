@@ -9,11 +9,12 @@ export default defineNuxtConfig({
     ],
     runtimeConfig: {
         // The private keys which are only available within server-side
-        apiSecret: '',
+        apiBaseUrl: '', // can be overridden by NUXT_API_BASE_URL environment variable
+
         // Keys within public, will be also exposed to the client-side
-        public: {
-            apiBaseUrl: ''
-        }
+        // public: {
+        //     apiBase: '' // can be overridden by NUXT_PUBLIC_API_BASE environment variable
+        // }
     },
     content: {
         documentDriven: true
