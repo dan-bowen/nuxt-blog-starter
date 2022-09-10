@@ -19,6 +19,6 @@
     "@headlessui/vue": "^1.6.7",
     "@pinia/nuxt": "^0.4.1",
     "pinia": "^2.0.21",
-    "vue-icomoon": "^0.3.0"
+    "vue-icomoon": "^0.3.2"
   }
 }

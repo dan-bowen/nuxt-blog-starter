@@ -5626,10 +5626,10 @@ vue-demi@*:
   resolved "https://registry.npmjs.org/vue-demi/-/vue-demi-0.13.11.tgz"
   integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
 
-vue-icomoon@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/vue-icomoon/-/vue-icomoon-0.3.0.tgz"
-  integrity sha512-7zOlRO5h516s2/T82Pm4cfEhGZF/R9tyzcwf98905PwuSwk5GjGn8Lw13HNKxnY72mv+WZHfZxNr8anwbtLQ/Q==
+vue-icomoon@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/vue-icomoon/-/vue-icomoon-0.3.2.tgz#d321911e570a4bb423ba8de88d30e4e878a62882"
+  integrity sha512-xe3pc6wBSLcPHctgzdHPHM3BF99yEzyyqWmerrlNE61TqzjCAyqimHwxq8f/vBQNn4Op7KYkKNemINbG6uf/Ww==
 
 vue-router@^4.1.3:
   version "4.1.5"
