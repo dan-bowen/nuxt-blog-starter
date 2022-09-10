@@ -16,7 +16,7 @@ const { data: blogPost } = await useAsyncData(`content-${path}`, () => {
         </TheHero>
         <ArticleContainer>
             <ArticlePanel>
-                <section class="prose pt-10 pb-12">
+                <section class="prose max-w-none pt-10 pb-12">
                     <div class="p-4">
                         <div class="mx-24 my-0 text-lg">
                             <ContentDoc />

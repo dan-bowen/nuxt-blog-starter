@@ -13,9 +13,12 @@
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {
+    "@formkit/addons": "^1.0.0-beta.11-0dd967c",
+    "@formkit/nuxt": "^1.0.0-beta.11-0dd967c",
+    "@formkit/themes": "^1.0.0-beta.11-0dd967c",
     "@headlessui/vue": "^1.6.7",
     "@pinia/nuxt": "^0.4.1",
     "pinia": "^2.0.21",
-    "vue-icomoon": "^0.3.0"
+    "vue-icomoon": "^0.3.2"
   }
 }

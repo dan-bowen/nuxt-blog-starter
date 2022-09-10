@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "92fc11a9-0114-4375-8499-fcf547f2870b",
+		"name": "nuxt-blog-starter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/form/contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Dan",
+							"type": "default"
+						},
+						{
+							"key": "email",
+							"value": "foo@bar.com",
+							"type": "default"
+						},
+						{
+							"key": "message",
+							"value": "hi, my name is",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{base_url}}/form/contact",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"form",
+						"contact"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
