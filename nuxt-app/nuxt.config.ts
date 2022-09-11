@@ -17,7 +17,13 @@ export default defineNuxtConfig({
         // }
     },
     content: {
-        documentDriven: true
+        documentDriven: true,
+        highlight: {
+            theme: 'github-dark',
+            preload: [
+                'py'
+            ]
+        }
     },
     typescript: {
         shim: false
