@@ -51,4 +51,12 @@ function baz(s) {
 const msg = 'hello'
 ```
 
+```py
+import pandas as pd
+
+def get_df():
+  df = pd.DataFrame({'num_legs': [2, 4], 'num_wings': [2, 0]}, index=['falcon', 'dog'])
+  return df
+```
+
 The end ...
