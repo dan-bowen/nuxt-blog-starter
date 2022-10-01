@@ -13,9 +13,9 @@
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {
-    "@formkit/addons": "^1.0.0-beta.11-0dd967c",
-    "@formkit/nuxt": "^1.0.0-beta.11-0dd967c",
-    "@formkit/themes": "^1.0.0-beta.11-0dd967c",
+    "@formkit/addons": "^1.0.0-beta.12-d017323",
+    "@formkit/nuxt": "^1.0.0-beta.12-d017323",
+    "@formkit/themes": "^1.0.0-beta.12-d017323",
     "@headlessui/vue": "^1.7.0",
     "@pinia/nuxt": "^0.4.1",
     "pinia": "^2.0.21",
