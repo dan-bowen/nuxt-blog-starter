@@ -27,7 +27,7 @@ const submitHandler = async (formData) => {
         method: 'post',
         body: formData
     })
-    .then(res => {
+        .then(res => {
             const data = res.data
             const errors = res.errors
             // console.log('success', data)
@@ -36,11 +36,11 @@ const submitHandler = async (formData) => {
             isSuccess.value = true
             reset('contactMe')
         }
-    )
-    .catch((error) => {
-        isServerError.value = true
-        // console.log('catch', error.data)
-    })
+        )
+        .catch((error) => {
+            isServerError.value = true
+            // console.log('catch', error.data)
+        })
 }
 </script>
     
