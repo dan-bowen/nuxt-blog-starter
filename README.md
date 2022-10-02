@@ -2,13 +2,13 @@
 
 <div align="center">
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4700d489-534c-4c3a-8601-5acdd234d456/deploy-status)](https://app.netlify.com/sites/moonlit-truffle-fd3999/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1575b735-f825-4a7e-ba33-aa0071957421/deploy-status)](https://app.netlify.com/sites/strong-toffee-734712/deploys)
 
 </div>
 
 <div align="center">
 
- [Netlify Deployment](https://moonlit-truffle-fd3999.netlify.app/)
+ [Netlify Deployment](https://strong-toffee-734712.netlify.app/)
 
 </div>
 
