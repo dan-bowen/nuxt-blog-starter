@@ -5,12 +5,13 @@ import SuccessAlert from '@/components/alerts/SuccessAlert.vue'
 import ErrorAlert from '@/components/alerts/ErrorAlert.vue'
 
 let recaptcha = null
+const recaptchaAction = 'contact_form'
 const isSuccess = ref(false)
 const isServerError = ref(false)
 
 
 onMounted(() => {
-    recaptcha = useVueRecaptcha()
+    recaptcha = useRecaptchaClient()
 })
 
 const submitHandler = async (formData) => {
@@ -18,9 +19,12 @@ const submitHandler = async (formData) => {
     isServerError.value = false
 
     // get recaptcha token and merge with post body
-    const token = await recaptcha('contact_form')
+    const recaptchaToken = await recaptcha(recaptchaAction)
     formData['_meta'] = {
-        'recaptcha_token': token
+        'recaptcha': {
+            'token': recaptchaToken,
+            'action': recaptchaAction
+        }
     }
 
     await $fetch('/api/form/contact', {

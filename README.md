@@ -48,3 +48,19 @@ yarn mocks
 [vue-icomoon](https://github.com/aykutkardas/vue-icomoon)
 
 [Mocks Server](https://www.mocks-server.org/)
+
+
+# Development
+
+## reCaptcha
+
+**Helpful reading**
+
+
+[Google Cloud Authentication](https://cloud.google.com/docs/authentication/use-cases#adc)
+
+> This app uses the [Application Default Credentials](https://cloud.google.com/docs/authentication/provide-credentials-adc) method.
+
+[Using Google Cloud with Netlify](https://www.dferber.de/blog/how-to-use-google-cloud-platform-from-netlify)
+
+[Creating Assessments](https://cloud.google.com/recaptcha-enterprise/docs/create-assessment)

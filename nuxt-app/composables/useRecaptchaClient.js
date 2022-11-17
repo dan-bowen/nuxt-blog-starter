@@ -2,13 +2,13 @@ import { VueReCaptcha, useReCaptcha } from 'vue-recaptcha-v3'
 
 // following along with this issue:
 // https://github.com/AurityLab/vue-recaptcha-v3/issues/609#issuecomment-1255015920
-export function useVueRecaptcha() {
+export function useRecaptchaClient() {
     const { vueApp } = useNuxtApp()
     const config = useRuntimeConfig()
 
     // TODO: How to set this up globally? Make a plugin?
     vueApp.use(VueReCaptcha, {
-        siteKey: config.recaptchaSiteKey,
+        siteKey: config.public.recaptchaSiteKey,
         // TODO: load these options from config
         loaderOptions: {
             autoHideBadge: true,
