@@ -1,5 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
-
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
     modules: [
@@ -9,12 +7,12 @@ export default defineNuxtConfig({
     ],
     runtimeConfig: {
         // The private keys which are only available within server-side
-        apiBaseUrl: '', // can be overridden by NUXT_API_BASE_URL environment variable
+        apiBaseUrl: '', // env: by NUXT_API_BASE_URL
 
         // Keys within public, will be also exposed to the client-side
-        // public: {
-        //     apiBase: '' // can be overridden by NUXT_PUBLIC_API_BASE environment variable
-        // }
+        public: {
+            recaptchaSiteKey: '' // env: NUXT_PUBLIC_RECAPTCHA_SITE_KEY
+        }
     },
     content: {
         documentDriven: true,

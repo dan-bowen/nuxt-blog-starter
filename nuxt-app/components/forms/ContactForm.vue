@@ -4,18 +4,34 @@ import { reset } from '@formkit/core'
 import SuccessAlert from '@/components/alerts/SuccessAlert.vue'
 import ErrorAlert from '@/components/alerts/ErrorAlert.vue'
 
+let recaptcha = null
+const recaptchaAction = 'contact_form'
 const isSuccess = ref(false)
 const isServerError = ref(false)
+
+
+onMounted(() => {
+    recaptcha = useRecaptchaClient()
+})
 
 const submitHandler = async (formData) => {
     isSuccess.value = false
     isServerError.value = false
 
+    // get recaptcha token and merge with post body
+    const recaptchaToken = await recaptcha(recaptchaAction)
+    formData['_meta'] = {
+        'recaptcha': {
+            'token': recaptchaToken,
+            'action': recaptchaAction
+        }
+    }
+
     await $fetch('/api/form/contact', {
         method: 'post',
         body: formData
     })
-    .then(res => {
+        .then(res => {
             const data = res.data
             const errors = res.errors
             // console.log('success', data)
@@ -24,11 +40,11 @@ const submitHandler = async (formData) => {
             isSuccess.value = true
             reset('contactMe')
         }
-    )
-    .catch((error) => {
-        isServerError.value = true
-        // console.log('catch', error.data)
-    })
+        )
+        .catch((error) => {
+            isServerError.value = true
+            // console.log('catch', error.data)
+        })
 }
 </script>
     
