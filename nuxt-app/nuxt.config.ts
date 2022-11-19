@@ -26,14 +26,10 @@ export default defineNuxtConfig({
     typescript: {
         shim: false
     },
-    build: {
-        postcss: {
-            postcssOptions: {
-                plugins: {
-                    tailwindcss: {},
-                    autoprefixer: {}
-                }
-            }
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {}
         }
     },
     css: [

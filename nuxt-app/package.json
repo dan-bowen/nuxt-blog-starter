@@ -8,18 +8,20 @@
   },
   "devDependencies": {
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
-    "@tailwindcss/typography": "^0.5.7",
-    "nuxt": "^3.0.0-rc.11",
-    "tailwindcss": "^3.1.8"
+    "@tailwindcss/typography": "^0.5.8",
+    "autoprefixer": "^10.4.13",
+    "nuxt": "^3.0.0",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
   },
   "dependencies": {
-    "@formkit/addons": "^1.0.0-beta.12-d017323",
-    "@formkit/nuxt": "^1.0.0-beta.12-d017323",
-    "@formkit/themes": "^1.0.0-beta.12-d017323",
-    "@headlessui/vue": "^1.7.3",
-    "@pinia/nuxt": "^0.4.2",
-    "pinia": "^2.0.22",
-    "vue-icomoon": "^0.4.0",
+    "@formkit/addons": "^1.0.0-beta.12",
+    "@formkit/nuxt": "^1.0.0-beta.12",
+    "@formkit/themes": "^1.0.0-beta.12",
+    "@headlessui/vue": "^1.7.4",
+    "@pinia/nuxt": "^0.4.4",
+    "pinia": "^2.0.24",
+    "vue-icomoon": "^0.6.0",
     "vue-recaptcha-v3": "^2.0.1"
   }
 }
