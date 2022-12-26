@@ -1,7 +1,4 @@
 <script setup>
-definePageMeta({
-    documentDriven: true
-})
 const { page } = useContent()
 </script>
 

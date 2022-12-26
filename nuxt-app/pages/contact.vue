@@ -1,8 +1,5 @@
 <script setup>
 import ContactForm from '@/components/forms/ContactForm.vue'
-definePageMeta({
-    documentDriven: false
-})
 </script>
 
 <template>
