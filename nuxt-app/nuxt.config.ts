@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     },
     content: {
         documentDriven: {
-            injectPage: false
+            injectPage: false // turn off injectPage because we are using our own [...slug].vue
         },
         highlight: {
             theme: 'github-dark',
