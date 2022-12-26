@@ -1,7 +1,4 @@
 <script setup>
-definePageMeta({
-    documentDriven: false
-})
 useHead({
     title: 'Homepage',
     meta: [
